@@ -3,7 +3,7 @@ TheNexusAvenger
 
 Class representing a controller icon.
 --]]
---!strict
+--!nocheck
 
 local BASE_ICON_SIZE_RELATIVE = 0.9
 local CUSTOM_MULTIPLIERS = {
