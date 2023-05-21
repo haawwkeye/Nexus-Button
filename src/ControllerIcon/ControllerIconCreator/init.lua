@@ -8,7 +8,7 @@ for _, platform in pairs(script.Spritesheets:GetChildren()) do
     end
 end
 
-local function getImageInstance(instanceType, index, style)
+local function getImageInstance(instanceType, index, style, platform)
     local platform = "XboxOne"
     if type(index)== "userdata" then
         index = string.sub(tostring(index), 14)
